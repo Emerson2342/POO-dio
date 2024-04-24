@@ -1,6 +1,7 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -21,6 +22,8 @@ public class Main {
         curso2.setDescricao("Descrição curso JavaScript");
         curso2.setCargaHoraria(8);
 
+        Conteudo conteudo = new Curso();
+        Conteudo conteudo1 = new Mentoria();
 
         Mentoria mentoria = new Mentoria();
 
